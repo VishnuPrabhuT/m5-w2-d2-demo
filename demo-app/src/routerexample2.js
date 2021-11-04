@@ -25,8 +25,14 @@ function Topics() {
         <div>
             <h2>Topics</h2>
             <ul>
-                <Outlet />
+                <li>
+                    <Link to="cats">Cats</Link>
+                </li>
+                <li>
+                    <Link to="dogs">Dogs</Link>
+                </li>
             </ul>
+            <Outlet />
         </div>
     );
 }
