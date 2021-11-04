@@ -61,7 +61,7 @@ export default function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="topics" element={<Topics />}>
-                        <Route path="/" element={<Select />} />
+                        <Route path="" element={<Select />} />
                         <Route path=":topicId" element={<Topic />} />
                     </Route>
                 </Routes>
